@@ -1,11 +1,6 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 let runnerLate = true;
-let runnerAge = 18;
-
-if (runnerAge > 18 && runnerLate == false) {
-  raceNumber += 1000;
-  console.log(`${raceNumber} ${runnerAge} ${runnerLate}`);
-}
+let runnerAge = 19;
 
 if (runnerAge > 18 && runnerLate == false) {
   raceNumber += 1000;
